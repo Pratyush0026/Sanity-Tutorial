@@ -1,6 +1,6 @@
 // app/layout.tsx or src/app/layout.tsx
+"use client";
 
-import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -14,11 +14,7 @@ import NewsletterSection from "@/components/Newsletter";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "",
-  description:
-    "",
-};
+
 
 export default function RootLayout({
   children,
