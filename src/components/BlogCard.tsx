@@ -34,8 +34,8 @@ export default function BlogCard({ post }: { post: Post }) {
             <p>Sept</p>
           </div>
           <div>
-            <p>Conference Room, Berkley</p>
-            <p>8:00 AM - 12:00 PM</p>
+            <p>📍Conference Room, Berkley</p>
+            <p>🕰️ 8:00 AM - 12:00 PM</p>
           </div>
         </div>
 
