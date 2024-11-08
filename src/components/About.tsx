@@ -26,7 +26,7 @@ export default function AboutUsSection() {
 
   return (
     <section className="bg-[#F9F4EC] py-8 sm:py-12 px-4 sm:px-6 md:px-20 lg:px-32 text-center md:text-left">
-      <h2 className="text-3xl sm:text-4xl font-semibold mb-6 sm:mb-8 text-[#423D33] italic">
+      <h2 className="text-3xl sm:text-4xl font-serif font-medium mb-6 sm:mb-8 text-[#423D33] italic">
         {aboutData.title}
       </h2>
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8 xl:space-x-16">
