@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="flex flex-col md:flex-row items-center md:justify-between md:gap-8 max-w-6xl mx-auto px-4 space-y-6 md:space-y-0">
         {/* Logo Section */}
         <div className="flex items-center space-x-4">
-          <Image src="/logo.png" alt="ISS Club Logo" width={100} height={100} className="w-20 h-20 md:w-32 md:h-32"/>
+          <Image src="/logo.png" alt="ISS Club Logo" width={100} height={100} className="w-20 h-20 md:w-36 md:h-28"/>
           <h2 className="text-2xl md:text-3xl font-bold">ISS Club</h2>
         </div>
 
