@@ -1,12 +1,11 @@
-// app/layout.tsx or src/app/layout.tsx
 "use client";
 
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import ThemeProvider from "@/components/ThemeProvider";
+// import ThemeProvider from "@/components/ThemeProvider";
 import Footer from "@/components/Footer";
-import Container from "@/components/Container";
+// import Container from "@/components/Container";
 import HeroSection from "@/components/HeroSection";
 import AboutUsSection from "@/components/About";
 import GallerySection from "@/components/Gallery";
@@ -24,22 +23,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.className} bg-light dark:bg-dark`}>
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem={false}
           disableTransitionOnChange
-        >
-          <Container>
+        > */}
+          {/* <Container> */}
             <Navbar />
             <HeroSection />
             <AboutUsSection />
             {children}
             <GallerySection />
             <NewsletterSection />
-          </Container>
+          {/* </Container> */}
           <Footer />
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

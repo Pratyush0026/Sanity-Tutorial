@@ -8,11 +8,11 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'images.unsplash.com', // Add this line
+                hostname: 'images.unsplash.com', 
             },
             {
                 protocol: 'https',
-                hostname: 'media.istockphoto.com', // New entry for iStock images
+                hostname: 'media.istockphoto.com', 
             },
         ],
     },
