@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         {/* Logo Section */}
         <div className="flex items-center space-x-4">
           <Image src="/logo.png" alt="ISS Club Logo" width={100} height={100} className="w-20 h-20 md:w-36 md:h-28"/>
-          <h2 className="text-2xl md:text-3xl font-bold">ISS Club</h2>
+          <h2 className="text-lg md:text-3xl font-bold">ISS Club</h2>
         </div>
 
         {/* Links Section */}
